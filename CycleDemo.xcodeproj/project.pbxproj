@@ -15,6 +15,7 @@
 		42DBD4D421226ACB00FE1E63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DBD4D321226ACB00FE1E63 /* main.m */; };
 		42DBD4DE21226ACB00FE1E63 /* CycleDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DBD4DD21226ACB00FE1E63 /* CycleDemoTests.m */; };
 		42DBD4E921226ACB00FE1E63 /* CycleDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DBD4E821226ACB00FE1E63 /* CycleDemoUITests.m */; };
+		42DBD4F82122757E00FE1E63 /* CycleViewForLaoZhao.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DBD4F72122757E00FE1E63 /* CycleViewForLaoZhao.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		42DBD4E421226ACB00FE1E63 /* CycleDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CycleDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42DBD4E821226ACB00FE1E63 /* CycleDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CycleDemoUITests.m; sourceTree = "<group>"; };
 		42DBD4EA21226ACB00FE1E63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42DBD4F62122757E00FE1E63 /* CycleViewForLaoZhao.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CycleViewForLaoZhao.h; sourceTree = "<group>"; };
+		42DBD4F72122757E00FE1E63 /* CycleViewForLaoZhao.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CycleViewForLaoZhao.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				42DBD4C521226AC900FE1E63 /* AppDelegate.m */,
 				42DBD4C721226AC900FE1E63 /* ViewController.h */,
 				42DBD4C821226AC900FE1E63 /* ViewController.m */,
+				42DBD4F62122757E00FE1E63 /* CycleViewForLaoZhao.h */,
+				42DBD4F72122757E00FE1E63 /* CycleViewForLaoZhao.m */,
 				42DBD4CA21226AC900FE1E63 /* Main.storyboard */,
 				42DBD4CD21226ACB00FE1E63 /* Assets.xcassets */,
 				42DBD4CF21226ACB00FE1E63 /* LaunchScreen.storyboard */,
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42DBD4F82122757E00FE1E63 /* CycleViewForLaoZhao.m in Sources */,
 				42DBD4C921226AC900FE1E63 /* ViewController.m in Sources */,
 				42DBD4D421226ACB00FE1E63 /* main.m in Sources */,
 				42DBD4C621226AC900FE1E63 /* AppDelegate.m in Sources */,

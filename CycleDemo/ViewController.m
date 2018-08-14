@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "CycleViewForLaoZhao.h"
 @interface ViewController ()
 
 @end
@@ -17,7 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor whiteColor];
+    CycleViewForLaoZhao *cycle = [[CycleViewForLaoZhao alloc] init];
+    cycle.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
+    [self.view addSubview:cycle];
+    [cycle createCycleItems];
 }
+
 
 
 - (void)didReceiveMemoryWarning {
